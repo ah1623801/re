@@ -1,18 +1,18 @@
 import Header from '../comp/header';
+import Footer from '../comp/footer';
+
 
 const Html = () => {
     return (
         <>
 <Header />
+<Footer />
 
 
   <main>Html page</main>
 
 
-  <footer>
-    Designed and developed by Courses4Arab.com
-    <span>🧡</span>
-  </footer>
+
 
 
         </>
