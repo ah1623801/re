@@ -2,6 +2,8 @@
 
 import Header from '../comp/header';
 import Footer from '../comp/footer';
+import Maincontent from '../comp/Maincontent';
+
 
 const Css = () => {
     return (
@@ -10,9 +12,8 @@ const Css = () => {
 <Footer />
 
 
-  <main>
-Home page
-  </main>
+<Maincontent  psgeName="Css" />
+
 
 
 

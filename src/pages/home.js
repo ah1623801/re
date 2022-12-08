@@ -2,6 +2,7 @@
 
 import Footer from '../comp/footer';
 import Header from '../comp/header';
+import Maincontent from '../comp/Maincontent';
 
 const Home = () => {
     return (
@@ -9,10 +10,10 @@ const Home = () => {
 <Header />
 <Footer />
 
-  <main>
-Home page
-  </main>
 
+
+
+<Maincontent psgeName="Home" />
 
 
 

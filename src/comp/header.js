@@ -6,7 +6,8 @@
 
 
       import React from 'react';
-      
+      import { NavLink } from "react-router-dom";
+
       const Header = () => {
         return (
             <>
@@ -14,10 +15,9 @@
     <h1>Courses 4 Arab</h1>
     <ul className="flex">
       <li className="main-list">
-        <a className="main-link" href="#">
-          {" "}
-          HTML{" "}
-        </a>
+        <NavLink className="main-link" to="/html">
+          HTML
+        </NavLink>
         <ul className="sub-ul">
           <li>
             <a href="">Full Course</a>
@@ -31,10 +31,9 @@
         </ul>
       </li>
       <li className="main-list">
-        <a className="main-link" href="#">
-          {" "}
-          CSS{" "}
-        </a>
+        <NavLink className="main-link" to="/css">
+          CSS
+        </NavLink>
         <ul className="sub-ul">
           <li>
             <a href="">Full Course</a>
@@ -59,10 +58,9 @@
         </ul>
       </li>
       <li className="main-list">
-        <a className="main-link" href="#">
-          {" "}
-          JavaScript{" "}
-        </a>
+        <NavLink className="main-link" to="/javascript">
+          JavaScript
+        </NavLink>
         <ul className="sub-ul sub-of-js">
           <li>
             <a href="">coming soon🔥</a>
@@ -81,7 +79,7 @@
     <input id="burger" type="checkbox" />
     <div className="show-on-click">
       <div className="main-div">
-        <label htmlFor="html">
+        <label htmlFor="html" to="/html">
           HTML <i className="fas fa-plus" />{" "}
         </label>
         <input id="html" type="checkbox" />
@@ -98,7 +96,7 @@
         </ul>
       </div>
       <div className="main-div">
-        <label htmlFor="css">
+        <label htmlFor="css" to="/css">
           CSS <i className="fas fa-plus" />{" "}
         </label>
         <input id="css" type="checkbox" />
@@ -129,7 +127,7 @@
         </ul>
       </div>
       <div className="main-div">
-        <label htmlFor="js">
+        <label htmlFor="js" href="/javascript">
           JavaScript <i className="fas fa-plus" />{" "}
         </label>
         <input id="js" type="checkbox" />

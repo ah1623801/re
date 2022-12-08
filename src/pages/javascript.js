@@ -1,5 +1,6 @@
 import Header from '../comp/header';
 import Footer from '../comp/footer';
+import Maincontent from '../comp/Maincontent';
 const Javascript = () => {
     return (
         <>
@@ -8,9 +9,8 @@ const Javascript = () => {
 
 
 
-  <main>
-Home page
-  </main>
+<Maincontent  psgeName="javascript" />
+
 
 
 

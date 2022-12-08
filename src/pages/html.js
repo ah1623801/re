@@ -1,5 +1,6 @@
 import Header from '../comp/header';
 import Footer from '../comp/footer';
+import Maincontent from '../comp/Maincontent';
 
 
 const Html = () => {
@@ -9,7 +10,7 @@ const Html = () => {
 <Footer />
 
 
-  <main>Html page</main>
+<Maincontent  psgeName="Html" />
 
 
 
